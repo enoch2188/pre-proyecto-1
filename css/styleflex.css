@@ -1,0 +1,32 @@
+ul{
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+main{display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;  
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.textocontacto{
+    display: flex;
+    flex-direction: row ;}
+.alignitemcenter{align-items: center;}
+
+h3{
+    order: -1;
+}
+.cunalogo{
+    order: 1;
+}
+h1{
+    order: 2;
+}
+

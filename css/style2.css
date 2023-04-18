@@ -1,0 +1,90 @@
+.titulo{background-color: black;
+    color: floralwhite
+    }
+    
+    .encabezado{background-color: floralwhite;}
+    .ferialibros{size: 23px;}
+    
+    
+    
+    
+    
+    
+    
+    .cuadrado{
+        background-color: rgb(2, 56, 56);
+        width: 100px; /*modifica ancho*/
+        height: 100px;  /*modifica el alto*/
+        overflow:hidden;  
+    }
+    .cuadrado p{font-size: 15px;
+    font-weight: 400;
+position: static;}
+    /* BOX MODEL */
+    /* Todas las etiquetas html las podemos pensar como una caja.
+    todas las cajas tienen propiedades a modificar:padding,
+    margin,border */
+    li{
+        padding-top:50px; 
+        padding-bottom:20px;
+        padding-left:10px;
+        padding-right:20px;
+    }
+    
+   li{
+        margin: 20px 30px 40px
+    }
+    li{border: solid black;
+    border-top: blueviolet; list-style: lower-alpha;}
+
+    /* acepta valores.
+    el primero es el grosor de linea y el segundo es 
+    el tipo de linea y el tercero es el color de linea*/
+   
+    
+    
+    
+        /*margin, le puedo pasar 4, 2 o 1 valor.
+        si le paso 4 valores, el primero hace referencia
+        al top y sigue en sentido horario. si le paso 2
+        valores, el primero va al top y al botton y el segundo
+        al left y rigth. si le paso un solo valor
+        se aplica en los 4 lados */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        ul{list-style: none;}
+        a {text-decoration: none;}
+    p{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    }
+    h1{text-align: center;}
+    
+    
+    /*  ID  */
+    #parrafo{font-size: 40px;}
+    #parrafo2{font-size: 55px;}
+    #presentacion{
+        text-align: center;
+        font-weight: 500;
+        font-style: oblique; font-size: 37;
+        }
+        .posirelative{position: relative;
+        top: 100px;
+        left: 100px;}
+    .bgazul{background-color: blueviolet;}
+    .bgamarillo{background-color: yellow;}
+    header{background-color: chartreuse;
+    position: sticky; top: 0%;}
+    
